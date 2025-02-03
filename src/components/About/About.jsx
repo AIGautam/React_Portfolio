@@ -1,5 +1,5 @@
 import React from 'react'
-import "./about.css"
+import "./About.css"
 import Card from '../Card/Card'
 import mern from '../../assets/mern.png'
 import java from '../../assets/java.png'
