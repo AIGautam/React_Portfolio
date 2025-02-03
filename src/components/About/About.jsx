@@ -51,14 +51,14 @@ function About() {
                 end :"top 30%"
             }
         })
-        gsap.from(".aboutdetails ul", {
+        gsap.from(".aboutdetails ul li", {
             y:+100,
             duration: 1,
             opacity:0,
             stagger:1,
             stagger:1,
             scrollTrigger:{
-                trigger : ".aboutdetails ul",
+                trigger : ".aboutdetails ul li",
                 scroll :"body",
                 scrub:2,
                 start:"top 60%",
