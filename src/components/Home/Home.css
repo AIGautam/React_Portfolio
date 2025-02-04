@@ -78,3 +78,53 @@
         align-items: end;
     }
 }
+
+.button-group {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px; 
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.hire-me, .download-resume {
+    display: flex;  
+    align-items: center; 
+    justify-content: center;
+    padding: 10px 25px; 
+    font-size: 18px;  
+    font-weight: bold;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 2px solid rgb(66, 180, 205);
+    background: rgb(66, 180, 205);
+    color: black;
+    min-width: 160px; 
+    height: 50px; 
+    text-align: center;
+}
+
+.hire-me:hover, .download-resume:hover {
+    background: transparent;
+    color: rgb(66, 180, 205);
+}
+
+@media (max-width: 750px) {
+    .button-group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hire-me, .download-resume {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+
+

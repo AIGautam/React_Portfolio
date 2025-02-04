@@ -58,8 +58,15 @@ function Home() {
                                 delaySpeed={1000}
                             />
                         </span> */}
-                </div>
-                <button>HIRE ME</button>
+                        </div>
+                        {/* <button>HIRE ME</button> */}
+                        <div className="button-group">
+                            <button className="hire-me">HIRE ME</button>
+                            <a href="/Gautam_Resume.pdf" download className="download-resume">
+                                DOWNLOAD RESUME
+                            </a>
+                        </div>
+
             </div>
         </div>
 

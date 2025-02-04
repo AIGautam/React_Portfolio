@@ -45,7 +45,7 @@ function Projects() {
         <h1 id="para">1+ YEAR EXPERIENCED IN PROJECTS</h1>
         <div className="slider">
             <Card  title="AI-Powered Shopping Platform" image={ai}/>
-            <Card  title="VERTUAL ASSISTANT" image={va}/>
+            <Card  title="VIRTUAL ASSISTANT" image={va}/>
             <Card  title="CULTURAL HERITAGE OF INDIA" image={ch}/>
             <Card  title="AI-CHATBOT" image={ac}/>
             <Card  title="AI-TEXT TO IMAGE GENERATOR" image={textimg}/>
