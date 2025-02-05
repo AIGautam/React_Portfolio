@@ -5,17 +5,17 @@ import { ScrollTrigger } from 'gsap/all';
 import './Skills.css';
 
 const skills = [
-  { name: 'HTML5', icon: '/icons/html5.svg' },
+  { name: 'HTML5', icon: '/icons/html.webp' },
   { name: 'CSS3', icon: '/icons/css3.png' },
-  { name: 'JavaScript', icon: '/icons/javascript.png' },
-  { name: 'React', icon: '/icons/react.png' },
+  { name: 'JavaScript', icon: '/icons/js.webp' },
+  { name: 'React', icon: '/icons/react.svg' },
   { name: 'Next.js', icon: '/icons/nextjs.png' },
-  { name: 'Node.js', icon: '/icons/nodejs.png' },
-  { name: 'MongoDB', icon: '/icons/mongodb.png' },
-  { name: 'MySQL', icon: '/icons/mysql.png' },
-  { name: 'GitHub', icon: '/icons/github.png' },
-  { name: 'Java', icon: '/icons/java.png' },
-  { name: 'Python', icon: '/icons/python.png' },
+  { name: 'Node.js', icon: '/icons/nodejs.svg' },
+  { name: 'MongoDB', icon: '/icons/mongodb.svg' },
+  { name: 'MySQL', icon: '/icons/mysql.svg' },
+  { name: 'GitHub', icon: '/icons/github.svg' },
+  { name: 'Java', icon: '/icons/java.svg' },
+  { name: 'Python', icon: '/icons/python.svg' },
   { name: 'C', icon: '/icons/c.png' },
 ];
 
