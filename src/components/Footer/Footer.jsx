@@ -5,6 +5,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer className="footer">
+        <p className="copyright">© 2025 Gautam Portfolio. All rights reserved.</p>
       <div className="social-icons">
         <a href="https://www.linkedin.com/in/gautam-kumar-50773b264/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin />
@@ -16,7 +17,6 @@ const Footer = () => {
           <FaInstagram />
         </a>
       </div>
-      <p className="copyright">© 2025 Gautam Portfolio. All rights reserved.</p>
     </footer>
   );
 };
