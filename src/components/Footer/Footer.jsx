@@ -16,7 +16,7 @@ const Footer = () => {
           <FaInstagram />
         </a>
       </div>
-      <p className="copyright">© 2024 Your Name. All rights reserved.</p>
+      <p className="copyright">© 2025 Gautam Portfolio. All rights reserved.</p>
     </footer>
   );
 };
