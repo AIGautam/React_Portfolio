@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 import './Skills.css';
+
+gsap.registerPlugin(ScrollTrigger);
 
 const skills = [
   { name: 'HTML5', icon: '/icons/html.webp' },
@@ -19,27 +21,41 @@ const skills = [
   { name: 'C', icon: '/icons/c.png' },
 ];
 
-gsap.registerPlugin(ScrollTrigger);
-
 const Skills = () => {
+  const skillsRef = useRef(null);
+
   useGSAP(() => {
-    gsap.from(".skill-card", {
-      opacity: 0,
+    gsap.from('.section-title', {
       y: 100,
-      duration: 1.5,
-      stagger: 0.1, 
+      opacity: 0,
+      duration: 1,
+      ease: 'power3.out',
       scrollTrigger: {
-        trigger: ".skills-section",
-        start: "top 80%", 
-        end: "bottom 10%", 
-        scrub: true, 
-        once: true,
-      }
+        trigger: '.section-title',
+        start: 'top 80%',
+        end: 'top 20%',
+        scrub: 2,
+      },
     });
-  });
+    
+    gsap.from('.skill-card', {
+      opacity: 0,
+      scale: 0.5,
+      y: 100,
+      duration: 1,
+      stagger: 0.2,
+      ease: 'power3.out',
+      scrollTrigger: {
+        trigger: skillsRef.current,
+        start: 'top 80%',
+        end: 'bottom 20%',
+        scrub: true,
+      },
+    });
+  }, []);
 
   return (
-    <section className="skills-section">
+    <section ref={skillsRef} className="skills-section">
       <h2 className="section-title">SKILLS</h2>
       <div className="skills-container">
         {skills.map((skill, index) => (
