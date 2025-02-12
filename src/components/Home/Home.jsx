@@ -62,7 +62,7 @@ function Home() {
                         {/* <button>HIRE ME</button> */}
                         <div className="button-group">
                             <button className="hire-me">HIRE ME</button>
-                            <a href="/My_resume(1).pdf" download className="download-resume">
+                            <a href="https://drive.google.com/file/d/1JfzzyKOYY-cMeOHf-MtXc8lmdTa6erCy/view?usp=sharing" download className="download-resume">
                                 DOWNLOAD RESUME
                             </a>
                         </div>
