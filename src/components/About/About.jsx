@@ -104,7 +104,7 @@ function About() {
                         <span>GENDER</span> : MALE 
                     </li>
                     <li>
-                        <span>LANGUAGE</span> : HINDI, ENGLISH
+                        <span>LANGUAGE</span> : ENGLISH, HINDI
                     </li>
                 </ul>
             </div>
@@ -118,7 +118,7 @@ function About() {
                         <span>BRANCH</span> : CSE(AIML) 
                     </li>
                     <li>
-                        <span>CGPA</span> : 7.5 
+                        <span>SGPA</span> : 8.92 
                     </li>
                 </ul>
             </div>
